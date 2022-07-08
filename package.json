@@ -1,6 +1,6 @@
 {
     "name": "vscode-kub-pack",
-    "publisher": "",
+    "publisher": "KnoxvilleUtilitiesBoard",
     "displayName": "KUB Extension Pack",
     "description": "All the basic extensions needed to get up and running in vscode.",
     "repository": "https://github.com/knoxville-utilities-board/vscode-kub-pack",
