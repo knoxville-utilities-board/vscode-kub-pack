@@ -1,27 +1,33 @@
 {
-    "name": "vscode-kub-pack",
-    "publisher": "KnoxvilleUtilitiesBoard",
-    "displayName": "KUB Extension Pack",
-    "description": "All the basic extensions needed to get up and running in vscode.",
-    "repository": "https://github.com/knoxville-utilities-board/vscode-kub-pack",
-    "version": "0.0.1",
-    "engines": {
-      "vscode": "^1.68.0"
-    },
-    "categories": [
-      "Extension Packs"
-    ],
-    "extensionPack": [
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "mwpb.java-prettier-formatter",
-      "EmberTooling.emberjs",
-      "eamodio.gitlens",
-      "ms-vscode-remote.remote-ssh",
-      "ms-vscode-remote.remote-containers",
-      "ms-vscode-remote.remote-wsl",
-      "SonarSource.sonarlint-vscode",
-      "DavidAnson.vscode-markdownlint"
-    ]
+  "name": "vscode-kub-pack",
+  "publisher": "KnoxvilleUtilitiesBoard",
+  "displayName": "KUB Extension Pack",
+  "description": "All the basic extensions needed to get up and running in vscode.",
+  "repository": "https://github.com/knoxville-utilities-board/vscode-kub-pack",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mwpb.java-prettier-formatter",
+    "EmberTooling.emberjs",
+    "eamodio.gitlens",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-wsl",
+    "SonarSource.sonarlint-vscode",
+    "DavidAnson.vscode-markdownlint"
+  ],
+  "devDependencies": {
+    "vsce": "2.9.2"
+  },
+  "scripts": {
+    "build": "vsce package",
+    "deploy": "vsce publish --yarn"
   }
-  
+}
