@@ -1,0 +1,33 @@
+on:
+  release:
+    types:
+      - created
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: Use Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-release
+      - name: Install Dependencies
+        run: yarn install
+      - name: Build
+        if: github.event_name == 'pull_request'
+        run: yarn build
+      - name: Publish
+        if: startsWith(github.ref, 'refs/tags/')
+        run: yarn deploy
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
