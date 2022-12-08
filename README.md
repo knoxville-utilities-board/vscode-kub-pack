@@ -55,6 +55,12 @@ Allows VS Code integration in WSL
 
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
 
+## Handlebars
+
+This will add syntax highlighting and code snippets.
+
+<https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
+
 ## MarkdownLint
 
 This will add warnings to your editor if you violate common markdown conventions.
