@@ -24,7 +24,6 @@
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-wsl",
-    "SonarSource.sonarlint-vscode",
     "DavidAnson.vscode-markdownlint"
   ],
   "devDependencies": {

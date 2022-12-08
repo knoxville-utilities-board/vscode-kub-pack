@@ -55,14 +55,6 @@ Allows VS Code integration in WSL
 
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
 
-## SonarLint
-
-This will add hints to your editor to call out quality issues before SonarQube reviews your code.
-
-However, this extension does not use the exact ruleset that SonarQube uses, so it will not entirely prevent comments on your PR.
-
-https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
-
 ## MarkdownLint
 
 This will add warnings to your editor if you violate common markdown conventions.
