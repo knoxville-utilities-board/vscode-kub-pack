@@ -67,4 +67,10 @@ This will add warnings to your editor if you violate common markdown conventions
 
 <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
 
+## Ember Module Snippets
+
+Snippets to make importing Ember modules a snap in VSCode.
+
+<https://marketplace.visualstudio.com/items?itemName=candidmetrics.ember-module-snippets>
+
 **Enjoy!**
