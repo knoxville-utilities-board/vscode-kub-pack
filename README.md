@@ -73,4 +73,10 @@ Snippets to make importing Ember modules a snap in VSCode.
 
 <https://marketplace.visualstudio.com/items?itemName=candidmetrics.ember-module-snippets>
 
+## Code Spell Checker
+
+Spell checking for your code.
+
+<https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>
+
 **Enjoy!**
