@@ -4,9 +4,15 @@ Common VSCode extensions for KUB Developers.
 
 ## ESLint
 
-Inplace javascript linting.
+Javascript linting.
 
 <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
+
+## Sonar Lint
+
+Java linting.
+
+<https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode>
 
 ## Prettier
 
