@@ -57,6 +57,12 @@ Numerous features for Git. Spend some time exploring them in their docs.
 
 <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
 
+## Github Actions
+
+> You must authenticate with GitHub before using
+
+Manage workflows and runs, with linting for workflows
+
 ## Remote - SSH
 
 SSH servers as development environments.
