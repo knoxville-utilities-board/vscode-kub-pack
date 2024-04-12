@@ -33,7 +33,8 @@
     "ms-vscode.vscode-node-azure-pack",
     "adrianwilczynski.user-secrets",
     "vscjava.vscode-java-pack",
-    "pflannery.vscode-versionlens"
+    "pflannery.vscode-versionlens",
+    "redhat.java"
   ],
   "devDependencies": {
     "vsce": "2.9.2"
