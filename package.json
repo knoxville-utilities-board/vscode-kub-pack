@@ -37,7 +37,7 @@
     "redhat.java"
   ],
   "devDependencies": {
-    "vsce": "2.9.2"
+    "@vscode/vsce": "2.30.0"
   },
   "scripts": {
     "build": "vsce package",
