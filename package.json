@@ -25,6 +25,7 @@
     "andrejunges.Handlebars",
     "EmberTooling.emberjs",
     "candidmetrics.ember-module-snippets",
+    "typed-ember.glint-vscode",
     "eamodio.gitlens",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-containers",

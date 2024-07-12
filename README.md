@@ -62,6 +62,42 @@ Add the following settings to your `settings.json`:
 
 Snippets to make importing Ember modules a snap in VSCode.
 
+#### [Glint](https://marketplace.visualstudio.com/items?itemName=typed-ember.glint-vscode)
+
+Type safety for Glimmer component templates.
+
+Add the following settings to your `settings.json`:
+
+```json
+"[glimmer-js]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingStrategy": "indentation"
+},
+"[glimmer-ts]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingStrategy": "indentation"
+},
+```
+
+Also, if you don't have the `prettier.documentSelectors` setting in your `settings.json`, add it. If you do, add the `**/*.gjs` and `**/*.gts` entries.
+
+```json
+"prettier.documentSelectors": [
+  "**/*.js",
+  "**/*.ts",
+  "**/*.json",
+  "**/*.html",
+  "**/*.css",
+  "**/*.scss",
+  "**/*.md",
+  "**/*.yaml",
+  "**/*.yml",
+  "**/*.hbs",
+  "**/*.gjs",
+  "**/*.gts"
+],
+```
+
 ### Source Control
 
 #### [GitLens - Git Supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
