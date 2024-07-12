@@ -17,24 +17,24 @@
   ],
   "extensionPack": [
     "dbaeumer.vscode-eslint",
+    "SonarSource.sonarlint-vscode",
+    "DavidAnson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker",
     "esbenp.prettier-vscode",
     "mwpb.java-prettier-formatter",
+    "andrejunges.Handlebars",
     "EmberTooling.emberjs",
+    "candidmetrics.ember-module-snippets",
     "eamodio.gitlens",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-wsl",
-    "andrejunges.Handlebars",
-    "DavidAnson.vscode-markdownlint",
-    "candidmetrics.ember-module-snippets",
-    "streetsidesoftware.code-spell-checker",
-    "SonarSource.sonarlint-vscode",
+    "vscjava.vscode-java-pack",
+    "redhat.java",
+    "pflannery.vscode-versionlens",
     "ms-dotnettools.vscode-dotnet-pack",
     "ms-vscode.vscode-node-azure-pack",
-    "adrianwilczynski.user-secrets",
-    "vscjava.vscode-java-pack",
-    "pflannery.vscode-versionlens",
-    "redhat.java"
+    "adrianwilczynski.user-secrets"
   ],
   "devDependencies": {
     "@vscode/vsce": "2.30.0"
