@@ -44,8 +44,19 @@ Syntax highlighting and code snippets.
 
 #### [Ember.js](https://marketplace.visualstudio.com/items?itemName=EmberTooling.emberjs)
 
-Autocompletion for ember components and helpers.
-It also has integration with `ember-template-lint`.
+Autocompletion for ember components and helpers. It also has integration with `ember-template-lint`.
+
+Add the following settings to your `settings.json`:
+
+```json
+"eslint.validate": [
+  "glimmer-ts",
+  "glimmer-js"
+],
+"[handlebars]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+```
 
 #### [Ember Module Snippets](https://marketplace.visualstudio.com/items?itemName=candidmetrics.ember-module-snippets)
 
@@ -90,6 +101,14 @@ Shows the latest version for your dependencies in your `package.json`.
 #### [.NET Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-pack)
 
 Collection of extensions for .NET development.
+
+Add the following settings to your `settings.json`:
+
+```json
+"[csharp]": {
+  "editor.defaultFormatter": "ms-dotnettools.csharp"
+},
+```
 
 #### [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
 
