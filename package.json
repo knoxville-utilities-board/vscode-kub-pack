@@ -21,7 +21,7 @@
     "DavidAnson.vscode-markdownlint",
     "streetsidesoftware.code-spell-checker",
     "esbenp.prettier-vscode",
-    "mwpb.java-prettier-formatter",
+    "RudraPatel.prettier-plugin-java-vscode",
     "andrejunges.Handlebars",
     "EmberTooling.emberjs",
     "candidmetrics.ember-module-snippets",

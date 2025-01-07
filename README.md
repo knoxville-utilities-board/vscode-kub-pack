@@ -32,7 +32,15 @@ Change your default formatter to Prettier by adding this to your settings.json:
 "editor.defaultFormatter": "esbenp.prettier-vscode"
 ```
 
-#### [Java Prettier Formatter](https://marketplace.visualstudio.com/items?itemName=mwpb.java-prettier-formatter)
+#### [Prettier Java Plugin](https://marketplace.visualstudio.com/items?itemName=RudraPatel.prettier-plugin-java-vscode&ssr=false#overview)
+
+Specify the formatter for Java files by adding this to your settings.json:
+
+```json
+"[java]": {
+  "editor.defaultFormatter": "RudraPatel.prettier-plugin-java-vscode"
+}
+```
 
 Prettier plugin to format Java.
 
