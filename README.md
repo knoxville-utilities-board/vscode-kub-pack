@@ -162,4 +162,8 @@ Manage .NET Core user secrets in VS Code.
 
 Azure Tools for Visual Studio Code.
 
+#### [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+
+MSSQL extension for Visual Studio Code.
+
 **Enjoy!**
