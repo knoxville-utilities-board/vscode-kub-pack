@@ -35,7 +35,8 @@
     "pflannery.vscode-versionlens",
     "ms-dotnettools.vscode-dotnet-pack",
     "ms-vscode.vscode-node-azure-pack",
-    "adrianwilczynski.user-secrets"
+    "adrianwilczynski.user-secrets",
+    "ms-mssql.mssql"
   ],
   "devDependencies": {
     "@vscode/vsce": "2.30.0"
