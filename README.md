@@ -154,10 +154,6 @@ Add the following settings to your `settings.json`:
 },
 ```
 
-#### [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
-
-Manage .NET Core user secrets in VS Code.
-
 #### [Azure Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 
 Azure Tools for Visual Studio Code.

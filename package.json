@@ -8,7 +8,7 @@
     "url": "https://github.com/knoxville-utilities-board/vscode-kub-pack.git"
   },
   "icon": "logo.png",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -35,7 +35,6 @@
     "pflannery.vscode-versionlens",
     "ms-dotnettools.vscode-dotnet-pack",
     "ms-vscode.vscode-node-azure-pack",
-    "adrianwilczynski.user-secrets",
     "ms-mssql.mssql"
   ],
   "devDependencies": {
