@@ -70,7 +70,7 @@ Add the following settings to your `settings.json`:
 
 Snippets to make importing Ember modules a snap in VSCode.
 
-#### [Glint](https://marketplace.visualstudio.com/items?itemName=typed-ember.glint-vscode)
+#### [Glint](https://marketplace.visualstudio.com/items?itemName=typed-ember.glint2-vscode)
 
 Type safety for Glimmer component templates.
 

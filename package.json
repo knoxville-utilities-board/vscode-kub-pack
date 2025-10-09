@@ -8,7 +8,7 @@
     "url": "https://github.com/knoxville-utilities-board/vscode-kub-pack.git"
   },
   "icon": "logo.png",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -25,7 +25,7 @@
     "andrejunges.Handlebars",
     "EmberTooling.emberjs",
     "candidmetrics.ember-module-snippets",
-    "typed-ember.glint-vscode",
+    "typed-ember.glint2-vscode",
     "eamodio.gitlens",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-containers",
