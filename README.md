@@ -29,10 +29,13 @@ Spell checking your code.
 Change your default formatter to Prettier by adding this to your settings.json:
 
 ```json
-"editor.defaultFormatter": "esbenp.prettier-vscode"
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"[handlebars]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
 ```
 
-#### [Prettier Java Plugin](https://marketplace.visualstudio.com/items?itemName=RudraPatel.prettier-plugin-java-vscode&ssr=false#overview)
+#### [Prettier Java Plugin](https://marketplace.visualstudio.com/items?itemName=RudraPatel.prettier-plugin-java-vscode)
 
 Specify the formatter for Java files by adding this to your settings.json:
 
@@ -44,7 +47,7 @@ Specify the formatter for Java files by adding this to your settings.json:
 
 Prettier plugin to format Java.
 
-#### [Handlebars](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+#### [Handlebars](https://marketplace.visualstudio.com/items?itemName=andrejunges.handlebars)
 
 Syntax highlighting and code snippets.
 
@@ -66,18 +69,6 @@ C# code formatter. Specify the formatter for C# files by adding this to your set
 #### [Ember.js](https://marketplace.visualstudio.com/items?itemName=EmberTooling.emberjs)
 
 Autocompletion for ember components and helpers. It also has integration with `ember-template-lint`.
-
-Add the following settings to your `settings.json`:
-
-```json
-"eslint.validate": [
-  "glimmer-ts",
-  "glimmer-js"
-],
-"[handlebars]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-```
 
 #### [Ember Module Snippets](https://marketplace.visualstudio.com/items?itemName=candidmetrics.ember-module-snippets)
 
