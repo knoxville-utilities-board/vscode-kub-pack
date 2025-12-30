@@ -48,6 +48,19 @@ Prettier plugin to format Java.
 
 Syntax highlighting and code snippets.
 
+#### [CSharpier](https://marketplace.visualstudio.com/items?itemName=csharpier.csharpier-vscode)
+
+C# code formatter. Specify the formatter for C# files by adding this to your settings.json:
+
+```json
+"[csharp]": {
+  "editor.defaultFormatter": "csharpier.csharpier-vscode"
+},
+"[xml]": {
+  "editor.defaultFormatter": "csharpier.csharpier-vscode"
+}
+```
+
 ### Ember.js Development
 
 #### [Ember.js](https://marketplace.visualstudio.com/items?itemName=EmberTooling.emberjs)
@@ -145,14 +158,6 @@ Shows the latest version for your dependencies in your `package.json`.
 #### [.NET Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-pack)
 
 Collection of extensions for .NET development.
-
-Add the following settings to your `settings.json`:
-
-```json
-"[csharp]": {
-  "editor.defaultFormatter": "ms-dotnettools.csharp"
-},
-```
 
 #### [Azure Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 

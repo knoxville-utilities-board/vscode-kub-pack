@@ -35,7 +35,8 @@
     "pflannery.vscode-versionlens",
     "ms-dotnettools.vscode-dotnet-pack",
     "ms-vscode.vscode-node-azure-pack",
-    "ms-mssql.mssql"
+    "ms-mssql.mssql",
+    "csharpier.csharpier-vscode"
   ],
   "devDependencies": {
     "@vscode/vsce": "^3.7.1"
