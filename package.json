@@ -38,7 +38,7 @@
     "ms-mssql.mssql"
   ],
   "devDependencies": {
-    "@vscode/vsce": "2.30.0"
+    "@vscode/vsce": "^3.7.1"
   },
   "scripts": {
     "build": "vsce package",
